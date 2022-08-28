@@ -87,12 +87,20 @@ nav {
             content: 'CONTACT';
         }
     }
+    a.gfx-link {
+        &:after {
+            content: 'GFX';
+        }
+    }
+
+
 
     a.active {
         svg {
             color:#ffd700;
         }
     }
+    
 }
 
 ul {

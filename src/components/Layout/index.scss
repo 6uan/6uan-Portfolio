@@ -9,19 +9,25 @@
     top: 35px;
 }
 
+.top-tags-code {
+    top:35px;
+    bottom: auto;
+    margin-left: 20px;
+}
+
+
+
+
 .tags {
     color: #ffd700;
     opacity: 0.6;
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     left: 120px;
     font-size: 18px;
     font-family: 'Consolas';
 }
 
-.bottom-tag-html {
-    margin-left: -20px;
-}
 
 .container {
     width: 100%;
@@ -51,17 +57,18 @@
         max-height: 90%;
 
         h1 {
-            font-size: 53px;
+            font-size: 90px;
             font-family: 'Coolvetica';
-            color: #ffd700;
+            word-spacing: 50px;
+            color: #fff;
             font-weight: 400;
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
-            left: 10px;
+            left: 0px;
 
             &::before {
-                content: '<h1>';
+                content: ' ';
                 font-family: 'Consolas';
                 font-size: 18px;
                 position: absolute;
@@ -72,7 +79,7 @@
             }
 
             &::after {
-                content: '<h1/>';
+                content: ' ';
                 font-family: 'Consolas';
                 font-size: 18px;
                 line-height: 18px;
